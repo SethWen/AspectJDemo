@@ -85,12 +85,12 @@
 ### 1. 添加 gradle 插件及依赖
 * 项目根目录  build.gradle 的 buildscript.dependencies 节点中添加:
 
-        classpath 'org.aspectj:aspectjtools:1.8.1'
+        classpath 'org.aspectj:aspectjtools:1.9.2'
 
 * 你的主 module(默认是 app) 中添加依赖， 同时引入相关脚本：
 
         // 依赖
-        implementation 'org.aspectj:aspectjrt:1.8.1'
+        implementation 'org.aspectj:aspectjrt:1.9.2'
 
         // 脚本
         import org.aspectj.bridge.IMessage
@@ -173,7 +173,7 @@
         }
     }
 
-安卓中使用 AspectJ 实现面向切面的流程也就这样了。 demo 地址在 [这里]()
+安卓中使用 AspectJ 实现面向切面的流程也就这样了。 demo 地址在 [这里](https://github.com/SethWen/AspectJDemo)
 
 然后， 然后。。。我要立个 flag 先， 之后介绍下 Python 和 Node.js 中面向切面开发的简要实现。
 
